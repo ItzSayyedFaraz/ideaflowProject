@@ -1,70 +1,19 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# The project was build using react as an assesment for ideaflow.io.
+#The task was to buid a project using any text editor where on where on typing in input field if it includes '<>'
+ than it should produce a drop down ist of ideas and if it includes '#' than it should search in reference documents which 
+ includes the typed text.
+#The project was completed with following components
+ Home-This component searches for ideas if input text includes '<>' & for reference if it includes'#'.you dont need to logi for
+      this.For reference search following documents were added at backend using firebase.if you perform reference search it
+      will search through these documents.
+     1) ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+     2) "Jack quickly enjoyed a big, juicy hamburger with extra pickles. My friend Tim has a cute black cat named Whiskers. The five boxing wizards jump quickly. Mr. Jock, TV quiz PhD, bags few lynx. A wizard's job is to vex chumps quickly in fog. Amazingly few discotheques provide jukeboxes. Back in my quaint garden, jaunty zinnias vie with flaunting phlox. Mr. Nix, I'd like a fresh jug for mixing fizzy cocktails."
+     3)"The quick brown fox jumps over the lazy dog 1234567890."
+     you can preview your data & delete reference
+     
+ Sign-This component let users signin.
+ Signup-This component let users signin.
+ Addidea-This component lets you add idea and subidea.only logged in users will be able to add ideas and sub idea
+        For adding subidea reference idea is necessary otherwise operation will fail
