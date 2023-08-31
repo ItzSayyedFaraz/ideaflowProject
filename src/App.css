@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Parent{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .Parent .subParent{
+    margin: 30px;
+  }
+  .Parent .subParent h1{
+    margin: 15px;
+  }
+
+  .preDelete{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+  }
+
+  .preDelete button{
+   padding: 3px;
+   background-color:red;
+   border-radius: 50%;
+  }
+
+.navDivContainer{
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    color:antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    overflow: hidden;
+    margin:0 10px;
+}
+.navContainer h1{
+    display: flex;
+    flex-direction: column;
+    font-size:40px;
+    background-color: transparent;
+    /* background-image:linear-gradient(red,green,blue);
+    background-clip:text */
+    
+}
+
+#home{
+    background-color: green;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+#signin{
+    background-color:black;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+#signup{
+    background-color:black;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+#addidea{
+    background-color:black;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.signin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width:40vw;
+    height: 50vh;
+    box-shadow: 0 0 4px grey;
+    margin-top: 40px;
+    margin-left: 30%;
+    border-radius: 8px;
+}
+
+.signuppage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width:40vw;
+    height: 50vh;
+    box-shadow: 0 0 4px grey;
+    margin-top: 40px;
+    margin-left: 30%;
+    border-radius: 8px;
+
+}
+
+.signin .inputForm{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.signuppage .inputForm{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.signin .inputForm2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.signuppage .inputForm2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#signinLabel1{
+    margin: 15px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#signinLabel2{
+    margin: 50px;
+    font-size: medium;
+    font-weight: bolder;
+}
+#signinInput1{
+  width: 250px;
+}
+
+#signinInput2{
+    width: 250px; 
+    margin-left: -12px;
+}
+
+.signin .signinButtons{
+    display:flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    align-items: center;
+     margin-left: 35%;
+    margin-top:10% 
+
+}
+
+.siguppage .signinButtons{
+    display:flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    align-items: center;
+     margin-left: 35%;
+    margin-top:10% 
+
+}
+
+.signin button{
+    width: fit-content;
+    margin:5px
+}
+
+.signuppage button{
+    width: fit-content;
+    margin:35px
+}
+
+#signinuser{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.addIdeacontainer{
+    display:flex;
+    margin:10px
+}
+.addideaPre{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+#addsubField{
+    width: 250px;
+}
+.divSearchcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color:aliceblue;
+    height:75vh;
+    width:100vw;
+    margin:0px 10px ;
+}
+.divSearchcontainer h2{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 10px;
+}
+#inputField{
+    width: 600px;
+    border-radius: 10%;
+    border: 5px inset gray;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:20px;
+    margin-top: 8px;
+}
+.navContainer h1{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-shadow: 0px 0px 4px bisque;
+padding: 18px;
+
+}
+.navSubContainer{
+    display: flex;
+    margin-top: 12px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.navSubContainer h3,h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mode{
+    display: flex;
+    flex-direction: row;
+    margin: 10px
+}
+
+.mode #preview{
+   margin-left: -40px;
+   background-color: cornflowerblue;
+   padding: 8px;
+   border-radius: 10px;
+   cursor: pointer;
+   border: 5px outset black;
+   font-family:'Courier New', Courier, monospace
+}
+
+.mode #reference{
+    margin-left: 40px;
+    background-color: cornflowerblue;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px outset black;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.dropDownContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.dropdown{
+    width: 300px;
+    background-color:lightslategray;
+    display: none;
+    margin-top:-31px;
+    height:fit-content;
+    overflow: hidden;
+    font-weight: 500;
+    max-height: 55vh;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px;
+
+
+}
+
+.dropdown li{
+    margin: 4px;
+    cursor: pointer;
+}
+
+.dropdown li:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.dropDownContainer #btn3{
+    padding: 5px;
+    border-radius: 10%;
+    background-color: rgb(209, 133, 35);
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-left:40% ;
+    border:3px outset black
+}
+#btn2{
+    padding: 5px;
+    border-radius: 5%;
+    background-color:greenyellow;
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border:3px outset black;
+    margin-left: 60px;
+    
+}
+
+#btn1{
+    padding: 5px;
+    border-radius: 5%;
+    background-color:greenyellow;
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border:3px outset black;
+    margin-left: 80px;
+}
+
+.dropDownContainer .preButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.loginRequired{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
